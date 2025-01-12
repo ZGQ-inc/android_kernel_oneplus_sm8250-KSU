@@ -43,7 +43,7 @@ jobs:
         sudo apt install make python3 libssl-dev build-essential bc  bison flex unzip libssl-dev ca-certificates xz-utils mkbootimg cpio device-tree-compiler git git-lfs p7zip-full -y
         # git clone https://codeberg.org/Mandi-Sa/clang --dept=1 -b amd64-kernel-arm
         wget https://github.com/Mandi-Sa/clang/releases/download/amd64-kernel-arm_static-20/llvm20.0.0-binutils2.43.1_amd64-kernel-arm_static-20241229.7z
-        7z x amd64-kernel-arm-20220113.7z -o./clang/
+        7z x llvm20.0.0-binutils2.43.1_amd64-kernel-arm_static-20241229.7z -o./clang/
     
     - name: GetTime
       id: get_time
